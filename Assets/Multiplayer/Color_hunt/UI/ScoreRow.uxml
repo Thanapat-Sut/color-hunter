@@ -1,0 +1,7 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements">
+    <engine:VisualElement class="score-row">
+        <engine:Label name="rank" class="row-rank" />
+        <engine:Label name="name" class="row-name" />
+        <engine:Label name="score" class="row-score" />
+    </engine:VisualElement>
+</engine:UXML>

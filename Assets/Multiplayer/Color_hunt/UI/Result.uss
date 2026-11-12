@@ -1,0 +1,79 @@
+/* Full-screen dim overlay so the result panel is clearly the focus. */
+.result-root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.55);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.result-card {
+    background-color: rgba(15, 15, 22, 0.96);
+    border-radius: 18px;
+    padding: 28px 40px;
+    min-width: 480px;
+
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.winner-tag {
+    font-size: 56px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 18px;
+    letter-spacing: 6px;
+}
+
+.winner-tag.win {
+    color: rgb(255, 215, 0);
+}
+
+.winner-tag.lose {
+    color: rgb(240, 90, 90);
+}
+
+.winner-tag.draw {
+    color: rgb(220, 220, 220);
+}
+
+.result-rows {
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+/* Reuse .score-row / .row-rank / .row-name / .row-score rules from
+   Scoreboard.uss — Result.uss only adds extras. The row template is
+   shared (ScoreRow.uxml). To make the rows feel weightier in the
+   result panel, bump font sizes via descendants here. */
+.result-rows .score-row {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.result-rows .row-rank {
+    font-size: 24px;
+    width: 44px;
+}
+
+.result-rows .row-name {
+    font-size: 26px;
+}
+
+.result-rows .row-score {
+    font-size: 30px;
+    min-width: 130px;
+}
+
+.result-hint {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+    -unity-text-align: middle-center;
+    margin-top: 6px;
+}

@@ -1,0 +1,7 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements">
+    <engine:Style src="Scoreboard.uss" />
+    <engine:VisualElement name="scoreboard-root" class="scoreboard-root">
+        <engine:Label name="title" text="SCOREBOARD" class="scoreboard-title" />
+        <engine:VisualElement name="rows" class="scoreboard-rows" />
+    </engine:VisualElement>
+</engine:UXML>

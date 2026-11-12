@@ -1,0 +1,11 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements">
+    <engine:Style src="Scoreboard.uss" />
+    <engine:Style src="Result.uss" />
+    <engine:VisualElement name="result-root" class="result-root">
+        <engine:VisualElement name="result-card" class="result-card">
+            <engine:Label name="winner-tag" class="winner-tag" text="YOU WIN" />
+            <engine:VisualElement name="rows" class="result-rows" />
+            <engine:Label name="hint" class="result-hint" text="Step on the floor to continue" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

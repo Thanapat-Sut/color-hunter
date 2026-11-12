@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1d70d3f5eb2104ea05761724bc7c1d, type: 3}
+  m_Name: ColorConfig
+  m_EditorClassIdentifier: 
+  gridWidth: 5
+  gridHeight: 34
+  twoLaneGridWidth: 0
+  twoLaneGridHeight: 0
+  tileSize: 1
+  tileSpacing: 0
+  gridViewportHeight: 0.65
+  floorColor: {r: 0, g: 0, b: 0, a: 1}
+  startButtonConfirmColor: {r: 0, g: 1, b: 0, a: 1}
+  arrowColor: {r: 0, g: 0, b: 1, a: 1}
+  restartButtonColor: {r: 1, g: 1, b: 0, a: 1}
+  startButtonDelay: 2
+  gameOverButtonDelay: 5
+  dpadButtonDelay: 0.5
+  gameDuration: 180
+  correctScore: 10
+  wrongPenalty: 5
+  bonusEvery: 10
+  bonusScore: 10
+  highScoreThreshold: 1000
+  midScoreThreshold: 500
+  promptSfxGap: 0.5
+  stroopSfxGap: 0.5
+  gameColors:
+  - colorName: RED
+    thaiName: "\u0E2A\u0E35\u0E41\u0E14\u0E07"
+    color: {r: 1, g: 0, b: 0, a: 1}
+    characterSprite: {fileID: 21300000, guid: d83b426f93664f1387893c18e6b8c145, type: 3}
+    monsterClip: {fileID: 32900000, guid: 841bbdc31f4bbc244acb9e6da688c865, type: 3}
+    monsterMaterial: {fileID: 2100000, guid: 50c19dcfff8b3f345b654fd3541505f0, type: 2}
+    sfxName: RedVoice
+  - colorName: GREEN
+    thaiName: "\u0E2A\u0E35\u0E40\u0E02\u0E35\u0E22\u0E27"
+    color: {r: 0, g: 1, b: 0, a: 1}
+    characterSprite: {fileID: 21300000, guid: 1d0eb78338dc490e96415105afaf936a, type: 3}
+    monsterClip: {fileID: 32900000, guid: 47ebcd3341b0ed748b840b605a787949, type: 3}
+    monsterMaterial: {fileID: 2100000, guid: 8593124b24d9cd647a1c230aa6f8a8fd, type: 2}
+    sfxName: GreenVoice
+  - colorName: BLUE
+    thaiName: "\u0E2A\u0E35\u0E1F\u0E49\u0E32"
+    color: {r: 0, g: 0, b: 1, a: 1}
+    textColor: {r: 0.12, g: 0.56, b: 1, a: 1}
+    characterSprite: {fileID: 21300000, guid: 31707510c0884f5993073e8c1329f805, type: 3}
+    monsterClip: {fileID: 32900000, guid: 143b36c43c8e41d498bb4924a843a1e3, type: 3}
+    monsterMaterial: {fileID: 2100000, guid: 50c19dcfff8b3f345b654fd3541505f0, type: 2}
+    sfxName: BlueVoice
+  - colorName: YELLOW
+    thaiName: "\u0E2A\u0E35\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E07"
+    color: {r: 1, g: 1, b: 0, a: 1}
+    characterSprite: {fileID: 21300000, guid: 4734243d1a4e458495897a2bb156c079, type: 3}
+    monsterClip: {fileID: 32900000, guid: 85450211fa509134c831e2e4539e3392, type: 3}
+    monsterMaterial: {fileID: 2100000, guid: 8593124b24d9cd647a1c230aa6f8a8fd, type: 2}
+    sfxName: YellowVoice
+  phase1End: 30
+  phase1TargetDuration: 12
+  phase1ShuffleInterval: 0
+  phase1ColorCount: 2
+  phase2End: 120
+  phase2TargetDuration: 9
+  phase2ShuffleInterval: 0
+  phase2ColorAddInterval: 45
+  phase3TargetDuration: 6
+  phase3ShuffleInterval: 0
+  phase3PromptIframe: 1
+  warnVoiceTimeLeft: 30
+  activeTileRatio: 0.3
