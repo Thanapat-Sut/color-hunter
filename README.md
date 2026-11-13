@@ -2,7 +2,7 @@
 
 เกมเหยียบสีบนพื้น LED ของ Fortal casual lane game: จอแสดงสีโจทย์ ผู้เล่นต้องเหยียบช่องบนพื้นที่เป็นสีนั้นให้ได้มากที่สุดก่อนหมดเวลา
 
-repo นี้แยกเฉพาะ Color Hunter ออกมาจากโปรเจครวม `fortalndf/casual-game` (20 เกม) ให้อ่านโค้ดและเปิดเล่นใน Unity ได้
+repo นี้แยกเฉพาะ Color Hunter ออกมาจากโปรเจครวม `casual-game` (20 เกม, GitLab `fortalndf/casual-game`) ให้อ่านโค้ดและเปิดเล่นใน Unity ได้
 ข้างในมีตัวเกม, ระบบกลางที่ทุกเกมใช้ร่วมกัน และโหมดสองเครื่อง (Mirror) เกมอื่นและ Boot scene ไม่ได้ใส่มา
 
 > ที่มา: `casual-game` working tree วันที่ 2026-11-12 (Color Hunter V3 re-graphic)
@@ -20,7 +20,7 @@ repo นี้แยกเฉพาะ Color Hunter ออกมาจากโ�
 
 ```
 git lfs install
-git clone https://gitlab.com/fortalndf/color-hunter.git
+git clone https://github.com/Thanapat-Sut/color-hunter.git
 ```
 Unity Hub > Add > เลือกโฟลเดอร์ `color-hunter` แล้วเปิด `Assets/Scenes/Color_Hunter.unity`
 
